@@ -1,0 +1,10 @@
+[all:vars]
+ansible_connection=local
+[threescale]
+example-admin.3scale.net
+[threescale:vars]
+threescale_cicd_access_token=<ACCESS_TOKEN>
+threescale_cicd_apicast_sandbox_endpoint=https://api-staging.example.com
+threescale_cicd_apicast_production_endpoint=https://api.example.com
+threescale_cicd_api_environment_name=DEV
+threescale_cicd_sso_issuer_endpoint=http://zync_client_id:zync_client_secret@rh-sso.example.com

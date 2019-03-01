@@ -1,0 +1,6 @@
+- hosts: threescale
+  gather_facts: no
+  vars:
+    threescale_cicd_nolog: false
+  roles:
+  - nmasse-itix.threescale-cicd

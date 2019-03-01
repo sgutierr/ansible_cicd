@@ -99,16 +99,13 @@ definitions:
         description: Stock status
         type: string
 securityDefinitions:
-  OIDC:
-    type: oauth2
-    flow: accessCode
-    authorizationUrl: http://j.com
-    tokenUrl: http://j.com
-    scopes:
-      scope-1: openid
+  apikey:
+    type: apiKey
+    description: Use a 3scale API Key
+    name: api-key
+    in: header
 security:
-- OIDC:
-  - scope-1
+- apikey: []
 tags:
 - name: beer
   description: Beer resource

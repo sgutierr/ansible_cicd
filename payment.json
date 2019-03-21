@@ -16,7 +16,6 @@
     "version" : "1.5"
   },
   "host" : "payments-staging.5.9.12.13.xip.io",
-  "basePath" : "/",
   "schemes" : [ "https" ],
   "consumes" : [ "application/json" ],
   "produces" : [ "application/json" ],

@@ -23,7 +23,7 @@
     "/basic-auth" : {
       "get" : {
         "description" : "Postman Basic Auth",
-        "operationId" : "Postman Basic Auth",
+        "operationId" : "smoketest",
         "parameters" : [ {
           "name" : "user_key",
           "in" : "query",
